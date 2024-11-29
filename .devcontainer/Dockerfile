@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/python:0-3.10
+FROM mcr.microsoft.com/devcontainers/python:1.0-3.11-bookworm
 
 COPY requirements.txt /tmp/
 
